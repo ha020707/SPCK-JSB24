@@ -1,0 +1,88 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    padding: 14px;
+    border-bottom: 1px solid white; 
+}
+
+.top-nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 14px;
+}
+
+.menu{
+    background-color: black;
+    display: flex;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu img{
+    width: 162px;
+    height: 33px;
+    display: flex;
+}
+
+.nav-bar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 12px; 
+    text-decoration: none;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+}
+
+.search-box{
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input{
+    outline: none;
+    border:none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    background-color: white;
+    width: 240px;
+    height: 40px;
+
+}
+
+.cart i {
+    color: white;
+}
+
+.custom-slide{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.slides{
+    object-fit: cover;
+}
