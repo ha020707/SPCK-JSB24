@@ -1,3 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
 body{
     padding: 0px;
     margin: 0px;
@@ -77,12 +84,144 @@ body{
 }
 
 .custom-slide{
-    background-color: blue;
-    color: white;
+    background-color: white;
+    color: black;
     display: flex;
     justify-content: center;
+    padding: 16px;
 }
 
 .slides{
     object-fit: cover;
 }
+
+footer{
+    background-color: #111;
+}
+
+h1{
+    background-color: lightgray;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding:  20px;
+}
+
+.home-banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.home-banner-box img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    padding: 25px;
+}
+
+.home-banner-box h2{
+    text-align: center;
+}
+
+.home-banner-box button{
+    background-color: white;
+    color: black;
+    padding: 10px 24px;
+    border-radius: 1px solid red;
+    text-align: center;
+    display: flex;
+}  
+
+.btn-box{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-container{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.social-icon a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.social-icon a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.social-icon a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footer-nav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footer-nav ul li a:hover{
+    opacity: 1;
+}
+
+.footer-bottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p{
+    color:white;
+}
+
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px; 
+}
+
+@media (max-width: 700px) {
+    .footer-nav ul{
+        flex-direction: column;
+    }
+    .footer-nav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
