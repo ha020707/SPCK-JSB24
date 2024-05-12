@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="https://www.sneakerbranding.com/wp-content/uploads/2022/12/logo-in-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="https://www.w3schools.com/lib/w3.js"></script>
 </head>
 
 <body>
     <div class="top-nav">
-            <a class="a" href="#">ĐĂNG NHẬP</a> 
+            <a class="a" href="./login.html" target="_blank">ĐĂNG NHẬP</a> 
             <a class="a" href="#">VỊ TRÍ CỬA HÀNG</a> 
             <a class="a" href="#">THEO DÕI ĐƠN HÀNG</a>
             <a class="a" href="#">TRỢ GIÚP</a>
@@ -43,23 +42,59 @@
             
         </div>
     </div>
+
     <div class="custom-slide">
         <p class="slider">Đăng kí ngay để được nhận 10%*</p>
         <p class="slider">Miễn phí vận chuyển cho mọi đơn hàng</p>
         <p class="slider">Giày đẹp giá rẻ</p>
     </div>
+
     <div class="slide-bar">
-        <img class="slides" src="./img/slider-1.jpg" width="100%" height="600px">
-        <img class="slides" src="./img/slider-2.jpg" width="100%" height="600px">
-        <img class="slides" src="./img/slider-3.jpg" width="100%" height="600px">
+        <img name="slide" width="100%" height="700px" style="object-fit: cover;" >
     </div>
-    
-    <div class="product-slide">
+
+    <div class="product-title">
         <h1>
             Sản Phẩm Mới Nhất
         </h1>
     </div>
-    
+    <div class="product-slide">
+        <div class="product-items">
+            <img class="product-img" src="https://giaysneaker.store/media/catalog/product/cache/47d66d3609f727ab73c995561c27d006/n/i/nike-g-t-cut-2-pearl-pink-dj6015-602-0.png" alt="">
+            <h2>Nike</h2>
+            <h4>Gt Cut 2</h4>
+        </div>
+
+        <div class="product-items">
+            <img class="product-img" src="https://nb.scene7.com/is/image/NB/m1906ra_nb_02_i?$pdpflexf2$&wid=440&hei=440" alt="">
+            <h2>New Blance</h2>
+            <h4>1960</h4>
+        </div>
+
+        <div class="product-items">
+            <img class="product-img" src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Giay_Samba_OG_trang_B75806_01_standard.jpg" alt="">
+            <h2>Adidas</h2>
+            <h4>Sambae</h4>
+        </div>
+
+        <div class="product-items">
+            <img class="product-img" src="https://prod.aaw.com/media/catalog/product/c/e/ce974c777936e817a41823dadcd21f7f7b07b97102598f2fd44d1c3af00a4d4c.jpeg" alt="">
+            <h2>On Running</h2>
+            <h4>Cloudrift</h4>
+        </div>
+
+        <div class="product-items">
+            <img class="product-img" src="https://nb.scene7.com/is/image/NB/bb480lbb_nb_02_i?$pdpflexf2$&wid=440&hei=440" alt="">
+            <h2>New Balance</h2>
+            <h4>480</h4>
+        </div>
+
+        <div class="product-items">
+            <img class="product-img" src="https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/bd4cf472-051a-4699-964b-443b3364b2bb/air-jordan-1-mid-shoes-86f1ZW.png" alt="">
+            <h2>Nike</h2>
+            <h4>Air Jordan 1</h4>
+        </div>
+    </div>
     <div class="home-banner-content">
         <div class="home-banner-box">
             <img src="https://bizweb.dktcdn.net/thumb/1024x1024/100/427/145/products/z4321861331104-4854a74ffce34b7108e187a0a4598e86.jpg?" alt="">
@@ -136,9 +171,7 @@
          </div>
     </footer>
 
-    <script>
-        w3.slideshow(".slides", 1500);
-        w3.slideshow(".slider", 2000);
-    </script>
+    <script src="app.js"></script>
+
 </body>
 </html>
