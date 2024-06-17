@@ -19,21 +19,15 @@ function changeImg() {
 
 window.onload = changeImg()
 
-var text = []
-
-text[0] = 'Đăng kí ngay để được nhận 10 %*'
-text[1] = 'Miễn phí vận chuyển cho mọi đơn hàng'
-text[2] = 'Giày đẹp giá rẻ'
+// Text slideshow
+var texts = ["Đăng kí ngay để được nhận 10%*", "Miễn phí vận chuyển cho mọi đơn hàng", "Giày đẹp giá rẻ"];
 
 function changeText() {
-    document.custom.src = text[i]
-    if (i < text.length - 1) {
-        i++
-    } else {
-        i = 0
-    }
+    var textElement = document.getElementById('text-slide');
+    textElement.textContent = texts[i];
 
-    setTimeout("changeText()", time)
+    i = (i + 1) % texts.length;
+    setTimeout(changeText, time - 1000);
 }
 
 window.onload = changeText()
